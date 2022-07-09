@@ -26,7 +26,7 @@ class Usuario extends Database{
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->SMTPAuth = true;
       $mail->Username = '17030020@itcelaya.edu.mx';
-      $mail->Password = 'montalvito98';
+      $mail->Password = ' ';
       $mail->setFrom('17030020@itcelaya.edu.mx', 'CIE Automotive');
       $mail->addAddress($destinatario, $nombre);
       $mail->Subject = $asunto;
